@@ -1,0 +1,54 @@
+/*Master style */
+body{
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr
+     ;
+}
+
+/*nav styles*/
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    font-style:oblique
+}
+.left-side{
+    display: flex;
+}
+.nav-wrapper > .left-side > div{
+margin: 20%;
+font-size: 0.9em;
+text-transform: uppercase;
+}
+.nav-link-wrapper {
+height: 22px;
+border-bottom: 1px solid transparent;
+}
+a{
+    text-decoration: none;
+}
+.nav-link-wrapper:hover{
+    text-decoration: underline;
+}
+h1{
+    display: flex;
+   justify-content: center;
+   font-style: inherit;
+
+
+}
+/*portfolio styles*/
+
+
+
+
+
+
+
+
+
+
