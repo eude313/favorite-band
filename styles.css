@@ -62,14 +62,16 @@ strong{
 ul{
     color:rgb(33, 11, 236)
 }
+.songs-wrapper{
+background-position: left;
+height: 200px;
+width: fit-content;
+overflow: auto;
+border:50px;
+padding-right: 2%;
 
 
 
 
-
-
-
-
-
-
+}
 
