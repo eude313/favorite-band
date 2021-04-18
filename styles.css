@@ -30,13 +30,15 @@ body{
 margin: 20%;
 font-size: 0.9em;
 text-transform: uppercase;
+color: gold;
 }
 .nav-link-wrapper {
 height: 22px;
 border-bottom: 1px solid transparent;
+color: gold;
 }
 a{
-    text-decoration: none;
+    text-decoration: gold;
 }
 .nav-link-wrapper:hover{
     text-decoration: underline;
