@@ -1,12 +1,19 @@
 /*Master style */
 body{
-    margin: 0px;
+    margin: 0px; 
+    padding: 0px;
+    background-color:gray;
 }
 
 .container{
-    display: grid;
-    grid-template-columns: 1fr
-     ;
+
+
+}
+.image-container{
+    background-position: cover;
+    margin-left: 450px;
+
+  
 }
 
 /*nav styles*/
@@ -38,10 +45,22 @@ h1{
     display: flex;
    justify-content: center;
    font-style: inherit;
-
+   color: rgb(31, 31, 194);
+}
+paragraph-wrapper{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-/*portfolio styles*/
+strong{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(95, 95, 252);
+    font-weight: 800;
+}
+
+ul{
+    color:rgb(33, 11, 236)
+}
+
 
 
 
