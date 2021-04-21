@@ -1,23 +1,27 @@
 /*Master style */
 body{
     margin: 0px; 
-    padding: 0px;
+    padding-right: 0%;
     background-color:gray;
+    overflow-x: hidden;
+
 }
 
 .container{
+    display:block;
+    
 
 
 
 }
 .image-container{
-    background-position: cover;
-    margin-left: 450px;
+background-position: centre;
+margin-right: 2%;
+margin-left: 2%;
 
-  
+
 }
 
-/*nav styles*/
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
@@ -31,16 +35,13 @@ body{
 margin: 20%;
 font-size: 0.9em;
 text-transform: uppercase;
-color: gold;
 }
 .nav-link-wrapper {
 height: 22px;
 border-bottom: 1px solid transparent;
-color: gold;
+
 }
-a{
-    text-decoration: gold;
-}
+
 .nav-link-wrapper:hover{
     text-decoration: underline;
 }
@@ -52,10 +53,15 @@ h1{
 }
 .paragraph-wrapper{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 40px;
-
-
+    display: flexbox;
+    justify-content: left;
+    
 }
+.image{
+    margin-left: 1%;
+}
+
+
 strong{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     color: rgb(95, 95, 252);
@@ -81,5 +87,16 @@ color:rgb(35, 26, 161)
     color: rgb(40, 40, 126);
 
 }
+.songs-wrapper{
+    display: flex;
 
+}
+.flex-icon{
+    margin-right:  20%;
+    display: flex;
+   justify-content: center;
+}
+
+
+ 
 
